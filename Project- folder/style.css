@@ -1,6 +1,6 @@
 /* General Styles */
 body{
-    background-color:  #f9f9f9;
+    background-color: #f9f9f9;
     font-family: "Bebas Neue", serif;
     color: #333;
     margin: 0;
@@ -9,21 +9,23 @@ body{
 }
 /* Style the navigation bar */
 nav {
-    background-color: black;  /* Navbar background color */
+    background-color: black;
+   /* Navbar background color */
     padding: 10px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
-
 /* Style the list */
 nav ul {
     list-style: none;
-    display: flex;   /* Aligns links horizontally */
-    justify-content: flex-end;  /* Aligns links to the right */
-    gap: 20px;  /* Adds space between links */
+    display: flex;
+   /* Aligns links horizontally */
+    justify-content: flex-end;
+   /* Aligns links to the right */
+    gap: 20px;
+   /* Adds space between links */
 }
-
 /* Style the links */
 nav a {
     text-decoration: none;
@@ -33,12 +35,10 @@ nav a {
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-
 /* Hover effect */
 nav a:hover {
     background-color: white;
 }
-
 /* Header Styles */
 header{
     background-color: #007acc;
@@ -48,7 +48,6 @@ header{
     border-radius: 8px;
 }
 /* Section Styles */
-
 /* Style sections for clear separation */
 section {
     padding: 40px;
@@ -57,78 +56,97 @@ section {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 h1, h2{
     color: #0056b3;
 }
-
 ul{
     list-style-type: circle;
     padding-left: 20px;
 }
-/* link styling  */
+/* link styling */
 a {
     color: #0056b3;
     text-decoration: none;
 }
- a:hover{
+a:hover{
     text-decoration: underline;
- }
- .image-container {
-    display: flex; /* Flexbox enables centering */
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 300px; /* Set height to vertically center */
-    background-color: #f5f5f5; /* Optional: Add a background for the container */
-    border: 1px dashed #ccc; /* Optional: Add a border to the container */
 }
-
+.image-container {
+    display: flex;
+   /* Flexbox enables centering */
+    justify-content: center;
+   /* Centers horizontally */
+    align-items: center;
+   /* Centers vertically */
+    height: 300px;
+   /* Set height to vertically center */
+    background-color: #f5f5f5;
+   /* Optional: Add a background for the container */
+    border: 1px dashed #ccc;
+   /* Optional: Add a border to the container */
+}
 /* Image Styling */
 .image-container img {
-    display: block; /* Ensures it's treated as a block element */
-    margin: auto; /* Centers horizontally (fallback if not using flexbox) */
-    border: 5px solid #007acc; /* Add a solid border around the image */
-    padding: 10px; /* Space between the border and the image */
-    border-radius: 8px; /* Optional: Rounds the corners of the border */
+    display: block;
+   /* Ensures it's treated as a block element */
+    margin: auto;
+   /* Centers horizontally (fallback if not using flexbox) */
+    border: 5px solid #007acc;
+   /* Add a solid border around the image */
+    padding: 10px;
+   /* Space between the border and the image */
+    border-radius: 8px;
+   /* Optional: Rounds the corners of the border */
     border-radius: 50%;
 }
- /* Button Styles */
+/* Button Styles */
 .custom-button {
-    background-color: #007acc; /* Button color */
-    color: white; /* Text color */
-    font-size: 16px; /* Font size */
-    padding: 10px 20px; /* Padding inside the button */
-    border: none; /* Remove default browser border */
-    border-radius: 8px; /* Round edges */
-    cursor: pointer; /* Changes the cursor to a pointer on hover */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #007acc;
+   /* Button color */
+    color: white;
+   /* Text color */
+    font-size: 16px;
+   /* Font size */
+    padding: 10px 20px;
+   /* Padding inside the button */
+    border: none;
+   /* Remove default browser border */
+    border-radius: 8px;
+   /* Round edges */
+    cursor: pointer;
+   /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+   /* Smooth hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   /* Add a subtle shadow */
 }
-
 section {
     text-align: center;
 }
-
 /* Hover Effects */
 .custom-button:hover {
-    background-color: #005c99; /* Darker shade for hover */
-    transform: translateY(-2px); /* Slight lift effect */
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Enhance the shadow */
+    background-color: #005c99;
+   /* Darker shade for hover */
+    transform: translateY(-2px);
+   /* Slight lift effect */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+   /* Enhance the shadow */
 }
-
 /* Optional: Active State */
 .custom-button:active {
-    background-color: #004d80; /* Even darker when clicked */
-    transform: translateY(0); /* Button returns to original position */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #004d80;
+   /* Even darker when clicked */
+    transform: translateY(0);
+   /* Button returns to original position */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   /* Subtle shadow */
 }
-    /* Footer Styles */
-    footer{
-        text-align: center;
-        padding: 10px;
-        margin-top: 20px;
-        background-color: #f1f1f1;
-        border-top: 1px solid #ccc;
-        position: sticky;
-    }
-   
+/* Footer Styles */
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    position: sticky;
+}
